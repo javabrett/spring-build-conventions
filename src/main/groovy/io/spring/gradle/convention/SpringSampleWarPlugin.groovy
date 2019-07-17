@@ -35,7 +35,7 @@ public class SpringSampleWarPlugin extends SpringSamplePlugin {
 		PluginManager pluginManager = project.getPluginManager();
 
 		pluginManager.apply("war");
-		pluginManager.apply("org.akhikhl.gretty");
+		pluginManager.apply("org.gretty");
 
 		project.gretty {
 			servletContainer = 'tomcat8'
